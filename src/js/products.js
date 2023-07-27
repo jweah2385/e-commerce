@@ -16,3 +16,8 @@ const clothesApi = 'https://fakestoreapi.com/products';
 fetch(clothesApi)
   .then((res) => res.json())
   .then((data) => {});
+
+//Including three dots in the css page and also
+//add one more row of photos
+//Hold products in a array of objects and map through them
+//to get the desired products, then
