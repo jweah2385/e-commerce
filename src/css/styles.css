@@ -12,8 +12,6 @@ nav {
   justify-content: space-around;
   position: fixed;
   text-align: center;
-  background-color: #f5f5f5;
-  background-color: #dde6ed;
   background-color: #f1f6f9;
   z-index: 5;
   width: 100%;
@@ -176,6 +174,7 @@ nav {
   top: 30rem;
   align-items: center;
   padding-bottom: 10rem;
+  margin-bottom: 23rem;
 }
 
 .purchase-headers {
@@ -183,7 +182,8 @@ nav {
   flex-direction: row;
   justify-content: center;
   gap: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .products {
@@ -203,4 +203,167 @@ nav {
 .img8 {
   width: 90%;
   border-radius: 8px;
+}
+
+.fourth-section {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #9db2bf;
+  padding-bottom: 3rem;
+  border-radius: 8px;
+}
+
+.connected {
+  display: flex;
+  justify-content: center;
+  font-size: 2.8rem;
+  color: white;
+}
+
+.connect-mes {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  max-width: 34.5rem;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.learn {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: white;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  gap: 18%;
+  width: 100%;
+  height: 16%;
+  margin-top: 3rem;
+  background-color: #9db2bf;
+}
+
+.google,
+.fedex,
+.post-office,
+.pay-pal,
+.apple-pay,
+.stripe,
+.ups {
+  height: 100%;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  gap: 1rem;
+}
+
+div h1 {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+div p {
+  font-size: 0.9rem;
+}
+
+.footer-fashion {
+  width: 15%;
+}
+
+.statement {
+  line-height: 1.75rem;
+  margin-top: 2.37rem;
+}
+
+.footer-contact {
+}
+
+.contact-info {
+  margin-top: 2.5rem;
+}
+
+.footer-links {
+  font-size: 1rem;
+}
+
+.links-info {
+  margin-top: 2.5rem;
+}
+.footer-sign {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sign-info {
+  margin-top: 0.7rem;
+}
+input {
+  height: 22%;
+  border-radius: 4px;
+  border-width: 0.5px;
+}
+
+button {
+  height: 17%;
+  width: 50%;
+  border-radius: 4px;
+  color: white;
+  background-color: #a5c9ca;
+  border-width: 0.5px;
+}
+
+hr {
+  font-weight: 600;
+}
+
+.final {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 1.2%;
+  margin-bottom: 1.2%;
+}
+
+.copyright {
+  font-weight: lighter;
+}
+
+.social-media {
+  display: flex;
+  gap: 50%;
+  position: relative;
+  right: 8rem;
+  margin-top: 0.8rem;
+}
+
+.facebook {
+  height: 60%;
+}
+
+.twitter {
+  height: 60%;
+}
+
+.instagram {
+  height: 60%;
+}
+
+.pinterest {
+  height: 60%;
 }
