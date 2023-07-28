@@ -15,10 +15,13 @@ nav {
   background-color: #f1f6f9;
   z-index: 5;
   width: 100%;
+  padding-bottom: 0.5rem;
+  padding-top: 0.3rem;
 }
 
 .logo {
   display: flex;
+  padding-top: 0.4rem;
 }
 
 .main-options {
@@ -35,6 +38,7 @@ nav {
 }
 
 .first-page {
+  width: 100%;
 }
 
 .front-page-img {
@@ -52,6 +56,7 @@ nav {
   padding-left: 1rem;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
+  width: 100%;
 }
 /* Clothing collleciton  */
 .clothing {
@@ -171,10 +176,11 @@ nav {
 /* Producs Page */
 .third-page {
   position: relative;
-  top: 30rem;
+  top: 27rem;
   align-items: center;
   padding-bottom: 10rem;
   margin-bottom: 23rem;
+  width: 100%;
 }
 
 .purchase-headers {
@@ -189,7 +195,7 @@ nav {
 .products {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   text-align: center;
 }
 
@@ -200,8 +206,12 @@ nav {
 .img5,
 .img6,
 .img7,
-.img8 {
-  width: 90%;
+.img8,
+.img9,
+.img10,
+.img11,
+.img12 {
+  width: 87%;
   border-radius: 8px;
 }
 
@@ -213,6 +223,7 @@ nav {
   background-color: #9db2bf;
   padding-bottom: 3rem;
   border-radius: 8px;
+  margin-top: -4.5rem;
 }
 
 .connected {
@@ -267,40 +278,58 @@ nav {
 .about-us {
   display: flex;
   margin-top: 2.5rem;
-
+  width: 100%;
   justify-items: center;
+  justify-content: center;
 }
 
 .first-half {
   display: flex;
-  justify-content: right;
+  align-items: center;
+  width: 28%;
+  overflow: hidden;
 }
 
-.man-with-cap {
+.lady-in-blue {
+  max-height: 100%;
   max-width: 100%;
-
-  height: auto;
+  margin-right: auto;
 }
+
 .second-half {
   text-align: center;
   display: flex;
   flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-title {
   font-size: 1.9rem;
+  margin-bottom: 0.5rem;
 }
 .about-statement {
   line-height: 1.6rem;
+  width: 70%;
+  margin-top: 0px;
 }
 
+footer {
+  background-color: #aed8cc;
+  border-radius: 8px;
+  margin-bottom: -1.5rem;
+  width: 100%;
+}
 .main-footer {
   display: flex;
   justify-content: space-around;
   justify-content: space-evenly;
-  margin-top: 6rem;
+  margin-top: 2.6rem;
   margin-bottom: 3rem;
   gap: 1rem;
+  padding-top: 1rem;
+  width: 100%;
 }
 
 div h1 {
@@ -357,11 +386,13 @@ button {
   border-radius: 4px;
   color: white;
   background-color: #a5c9ca;
+  background-color: #0b666a;
   border-width: 0.5px;
 }
 
 hr {
   font-weight: 600;
+  background-color: #aed8cc;
 }
 
 .final {
@@ -370,11 +401,12 @@ hr {
   margin-left: 8%;
   margin-right: 8%;
   margin-top: 1.2%;
-  margin-bottom: 1.2%;
+  margin-bottom: 2.2%;
 }
 
 .copyright {
   font-weight: lighter;
+  margin-bottom: 1.4rem;
 }
 
 .social-media {
@@ -382,21 +414,25 @@ hr {
   gap: 50%;
   position: relative;
   right: 8rem;
-  margin-top: 0.8rem;
+  margin-top: 0.6rem;
 }
 
 .facebook {
-  height: 60%;
+  height: 57%;
 }
 
 .twitter {
-  height: 60%;
+  height: 57%;
 }
 
 .instagram {
-  height: 60%;
+  height: 57%;
 }
 
 .pinterest {
-  height: 60%;
+  height: 57%;
+}
+
+section {
+  width: 100%;
 }
