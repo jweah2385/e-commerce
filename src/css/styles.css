@@ -193,13 +193,35 @@ nav {
 }
 
 .products {
+  margin-left: 3.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   text-align: center;
   justify-content: center;
   align-items: center;
-  gap: 0rem;
+  gap: 1rem;
+}
+
+.products-title {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20.5%;
+  padding-right: 20.5%;
+}
+
+.products-text {
+  font-size: 1.3rem;
+}
+
+.products-text2 {
+  font-size: 1rem;
+}
+
+.img-container {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  width: 80%;
 }
 
 .img1,
@@ -214,8 +236,9 @@ nav {
 .img10,
 .img11,
 .img12 {
-  width: 70%;
+  width: 90%;
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .fourth-section {
