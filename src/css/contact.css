@@ -13,9 +13,13 @@ nav {
   position: fixed;
   text-align: center;
   background-color: #f1f6f9;
+
   z-index: 5;
   width: 100%;
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
+  margin-top: -0.7rem;
+  padding-bottom: 0.6rem;
+  padding-top: 0.9rem;
 }
 
 .logo {
@@ -47,11 +51,90 @@ nav {
 }
 
 main {
+  padding-top: 5rem;
+  display: flex;
+  width: 100%;
+  /* margin-bottom: -20rem; */
 }
 
+.page {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.left-side {
+  padding-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 0.8rem;
+  /* background-color: #96b6c5; */
+  border-radius: 8px;
+  margin-left: 0.5rem;
+}
+
+.contact-us {
+  font-size: 2.3rem;
+  height: 3.5rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: -0.5rem;
+  padding-bottom: 0rem;
+}
+
+.email-address {
+  /* width: 30rem; */
+  width: 100%;
+  height: 3.5rem;
+}
+
+.reasons {
+  width: 100%;
+  height: 3.5rem;
+}
+
+.details {
+  width: 100%;
+  height: 10.5rem;
+}
+
+/* .contact-button > button {
+  height: 5.5rem;
+} */
+
+.contact-button {
+  height: 3.5rem;
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* background-color: #96b6c5; */
+  border-radius: 8px;
+  margin-right: 0.5rem;
+}
+
+.call-to-action {
+  font-size: 2.5rem;
+  position: relative;
+  top: 30%;
+  font-weight: 700;
+}
+/* 
+/* ///Footer Information */
 footer {
   background-color: #aed8cc;
   border-radius: 8px;
+  position: relative;
+  top: 5rem;
+  padding-top: 5rem;
+  margin-top: 15rem;
+
+  /* bottom: 0; */
 }
 .main-footer {
   display: flex;
