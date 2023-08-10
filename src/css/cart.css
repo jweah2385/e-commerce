@@ -22,6 +22,7 @@ nav {
 .logo {
   display: flex;
   padding-top: 0.4rem;
+  font-size: 0.8rem;
 }
 
 .main-options {
@@ -48,7 +49,7 @@ nav {
 }
 
 main {
-  padding-top: 6rem;
+  padding-top: 5rem;
   display: flex;
 }
 
@@ -59,18 +60,17 @@ main {
 
   /* background-color: #96b6c5; */
   border-radius: 8px;
-  margin-left: 0.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   border-width: 0.1rem;
-  border-color: lavender;
-  border-style: solid;
+
+  /* border-color: lavender; */
+  /* border-style: solid; */
 }
 
-.right-cart {
-  display: flex;
-  flex-direction: column;
-  width: 35%;
-  /* background-color: #96b6c5; */
-  border-radius: 8px;
+.cart-title {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
 }
 
 .cart-categories {
@@ -79,10 +79,13 @@ main {
   justify-content: space-between;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+  font-size: 1.3rem;
+  color: #404258;
 }
 
 .selected-products {
   display: flex;
+  justify-content: start;
   justify-content: space-between;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -90,10 +93,30 @@ main {
 
 .product-img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+
+  /* padding-bottom: 1rem;
+  border-bottom: 8px; */
+  /* margin-right: 2rem; */
 }
 
 .product-name {
   display: flex;
+  width: 15%;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+
+.product-title {
+}
+
+.quantity-sec {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: -3%;
 }
 
 .price-quantity {
@@ -104,8 +127,6 @@ main {
   border-color: lavender;
   width: 5rem;
   justify-content: space-between;
-  padding-top: 0rem;
-  padding-bottom: 0rem;
 }
 
 .minus {
@@ -119,3 +140,203 @@ main {
 .price-number {
   display: flex;
 }
+
+hr {
+  color: lavender;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/*Right side of the page*/
+.right-cart {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  border-radius: 8px;
+  border-style: solid;
+  margin-top: 6.5rem;
+  margin-right: 5rem;
+  height: 70%;
+  border-width: 0.08rem;
+  border-color: #bdcdd6;
+}
+
+.subtotal-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.cost-comb {
+  display: flex;
+}
+
+.discount-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.cost-comb-last {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.grand-total-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.total-hr {
+  width: 87%;
+  color: lavender;
+}
+
+.checkout-button {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  height: 3rem;
+  border-radius: 8px;
+  align-items: center;
+  position: relative;
+  color: white;
+  background-color: #176b87;
+  border-width: 0;
+  margin-bottom: 1rem;
+}
+
+.button {
+  margin-left: 1.5rem;
+  margin-right: 1.2rem;
+  text-align: center;
+}
+
+.subtotal-txt,
+.discount-txt {
+  color: #404258;
+}
+
+/* Footer Section
+footer {
+  background-color: #aed8cc;
+  border-radius: 8px;
+  margin-bottom: -1.5rem;
+}
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  margin-top: 2.6rem;
+  margin-bottom: 3rem;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+div h1 {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+div p {
+  font-size: 0.9rem;
+}
+
+.footer-fashion {
+  width: 15%;
+}
+
+.statement {
+  line-height: 1.75rem;
+  margin-top: 2.37rem;
+}
+
+.footer-contact {
+}
+
+.contact-info {
+  margin-top: 2.5rem;
+}
+
+.footer-links {
+  font-size: 1rem;
+}
+
+.links-info {
+  margin-top: 2.5rem;
+}
+.footer-sign {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sign-info {
+  margin-top: 0.7rem;
+}
+input {
+  height: 22%;
+  border-radius: 4px;
+  border-width: 0.5px;
+}
+
+button {
+  height: 17%;
+  width: 50%;
+  border-radius: 4px;
+  color: white;
+  background-color: #a5c9ca;
+  background-color: #0b666a;
+  border-width: 0.5px;
+}
+
+hr {
+  font-weight: 600;
+  background-color: #aed8cc;
+}
+
+.final {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 1.2%;
+  margin-bottom: 2.2%;
+}
+
+.copyright {
+  font-weight: lighter;
+  margin-bottom: 1.4rem;
+}
+
+.social-media {
+  display: flex;
+  gap: 50%;
+  position: relative;
+  right: 8rem;
+  margin-top: 0.6rem;
+}
+
+.facebook {
+  height: 57%;
+}
+
+.twitter {
+  height: 57%;
+}
+
+.instagram {
+  height: 57%;
+}
+
+.pinterest {
+  height: 57%;
+} */
